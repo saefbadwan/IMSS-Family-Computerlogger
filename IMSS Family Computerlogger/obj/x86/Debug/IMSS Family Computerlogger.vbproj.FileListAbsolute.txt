@@ -1,0 +1,34 @@
+C:\Users\User\AppData\Local\Temporary Projects\IMSS Family Computerlogger\bin\Debug\IMSS Family Computerlogger.exe
+C:\Users\User\AppData\Local\Temporary Projects\IMSS Family Computerlogger\bin\Debug\IMSS Family Computerlogger.pdb
+C:\Users\User\AppData\Local\Temporary Projects\IMSS Family Computerlogger\bin\Debug\IMSS Family Computerlogger.xml
+C:\Users\User\AppData\Local\Temporary Projects\IMSS Family Computerlogger\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\User\AppData\Local\Temporary Projects\IMSS Family Computerlogger\obj\x86\Debug\IMSS_Family_Computerlogger.MainWindow.resources
+C:\Users\User\AppData\Local\Temporary Projects\IMSS Family Computerlogger\obj\x86\Debug\IMSS_Family_Computerlogger.Resources.resources
+C:\Users\User\AppData\Local\Temporary Projects\IMSS Family Computerlogger\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\User\AppData\Local\Temporary Projects\IMSS Family Computerlogger\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\User\AppData\Local\Temporary Projects\IMSS Family Computerlogger\obj\x86\Debug\IMSS Family Computerlogger.exe
+C:\Users\User\AppData\Local\Temporary Projects\IMSS Family Computerlogger\obj\x86\Debug\IMSS Family Computerlogger.xml
+C:\Users\User\AppData\Local\Temporary Projects\IMSS Family Computerlogger\obj\x86\Debug\IMSS Family Computerlogger.pdb
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\IMSS Family Computerlogger.exe
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\IMSS Family Computerlogger.xml
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\IMSS Family Computerlogger.pdb
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\bin\Debug\IMSS Family Computerlogger.exe
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\bin\Debug\IMSS Family Computerlogger.pdb
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\bin\Debug\IMSS Family Computerlogger.xml
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\IMSS_Family_Computerlogger.MainWindow.resources
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\IMSS_Family_Computerlogger.Resources.resources
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\IMSS_Family_Computerlogger.IMSS_KEY_LOGGER.resources
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\IMSS_Family_Computerlogger.IMSS_SCREEN_LOGGER.resources
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\IMSS_Family_Computerlogger.IMSS_VOICE_LOGGER.resources
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\bin\Debug\Interop.WMPLib.dll
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\IMSS Family Computerlogger.vbproj.ResolveComReference.cache
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\bin\Debug\BasicAudio.dll
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\IMSS_Family_Computerlogger.IMSS_UNLOCK.resources
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\bin\Debug\IMSS Family Computerlogger.exe.config
+C:\Users\User\documents\visual studio 2010\Projects\IMSS Family Computerlogger\IMSS Family Computerlogger\obj\x86\Debug\IMSS_Family_Computerlogger.IMSS_REGISTER.resources

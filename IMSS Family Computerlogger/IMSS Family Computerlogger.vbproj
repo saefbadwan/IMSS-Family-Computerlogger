@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9158D21E-E13A-40D5-BDB3-C0AE5EC19D56}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>IMSS_Family_Computerlogger.My.MyApplication</StartupObject>
+    <RootNamespace>IMSS_Family_Computerlogger</RootNamespace>
+    <AssemblyName>IMSS Family Computerlogger</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>IMSS Family Computerlogger.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>IMSS Family Computerlogger.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>IMSS_Computerlogger_MainIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BasicAudio">
+      <HintPath>..\..\..\..\..\Desktop\IMSS Family Computerlogger icon\BasicAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="BetterListViewExpress-net20, Version=3.7.6.0, Culture=neutral, PublicKeyToken=e6c91a3add447be2, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=10.4.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="IMSS_CLASSES\IMSS_PATHS.vb" />
+    <Compile Include="IMSS_LOGGERS\IMSS_KEY_LOGGER.Designer.vb">
+      <DependentUpon>IMSS_KEY_LOGGER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMSS_LOGGERS\IMSS_KEY_LOGGER.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IMSS_LOGGERS\IMSS_SCREEN_LOGGER.Designer.vb">
+      <DependentUpon>IMSS_SCREEN_LOGGER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMSS_LOGGERS\IMSS_SCREEN_LOGGER.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IMSS_LOGGERS\IMSS_VOICE_LOGGER.Designer.vb">
+      <DependentUpon>IMSS_VOICE_LOGGER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMSS_LOGGERS\IMSS_VOICE_LOGGER.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IMSS_REGISTER.Designer.vb">
+      <DependentUpon>IMSS_REGISTER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMSS_REGISTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IMSS_UNLOCK.Designer.vb">
+      <DependentUpon>IMSS_UNLOCK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IMSS_UNLOCK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.vb">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IMSS_LOGGERS\IMSS_KEY_LOGGER.resx">
+      <DependentUpon>IMSS_KEY_LOGGER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMSS_LOGGERS\IMSS_SCREEN_LOGGER.resx">
+      <DependentUpon>IMSS_SCREEN_LOGGER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMSS_LOGGERS\IMSS_VOICE_LOGGER.resx">
+      <DependentUpon>IMSS_VOICE_LOGGER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMSS_REGISTER.resx">
+      <DependentUpon>IMSS_REGISTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMSS_UNLOCK.resx">
+      <DependentUpon>IMSS_UNLOCK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_IMSS_KEY_LOG_FILE_ICON_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_IMSS_ScreenLog_Icon_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMSS_Click.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_IMSS_ADUIO-Icon_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_IMSS_StopLogging_Icon_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_IMSS_StartLogging_Icon_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_IMSS_Exit_Icon_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IMSS_Computerlogger_MainIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
